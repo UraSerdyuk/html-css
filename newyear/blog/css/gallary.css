@@ -1,0 +1,88 @@
+.conteiner {
+    min-width: 20rem;
+}
+.main {
+    background-color: #fff;
+    padding: 4.6875rem 2.1875rem ;
+}
+.title {
+    font-family: ﻿PathwayGothicOne-Book, ﻿AdobeInvisFont, ﻿Courier,sans-serif;
+    font-size: 1.5625rem;
+    color: rgba(38, 53, 85, 255);
+    text-align: left;
+    margin-bottom: 2.813rem;
+}
+.logo-menu {
+    display: flex;
+    width: 100%;
+    margin-bottom: 1.25rem;
+}
+.li-logo-ul-li-menu-up {
+    font-family: ﻿Arial, ﻿AdobeInvisFont, ﻿Courier,sans-serif;
+    font-size: 1.063rem;
+    color: rgba(38, 53, 85, 255);
+    text-align: left;
+}
+.li-logo-ul-li-menu-end {
+    font-family: ﻿KaushanScript-Regular, ﻿ArialMT, ﻿AdobeInvisFont, ﻿Courier,sans-serif;
+    font-size: 0.8125rem;
+    color: rgba(134, 143, 143, 255);
+    text-align: left;
+}
+ .li-logo {
+    flex-basis: 9%;
+    width:2.0625rem ;
+    height: 2.0625rem;
+    background-color: #38afe5;
+    border-radius: 1rem;
+    color: #fff;
+    font-size:  0.5875rem;
+    text-align: center;
+    }
+ .span-logo {
+     font-size:  0.5rem;
+ }
+.li-logo-menu {
+    flex-basis: 50%;
+    font-family: ﻿KaushanScript-Regular, ﻿ArialMT, ﻿AdobeInvisFont, ﻿Courier,sans-serif;
+    font-size: 0.8125rem;
+    color: rgba(134, 143, 143, 255);
+    text-align: right;
+    margin-left: 1rem;
+}
+
+.title-main {
+    font-family: ﻿ArialMT, ﻿AdobeInvisFont, ﻿Courier,sans-serif;
+    font-size: 1rem;
+    color: rgba(38, 53, 85, 255);
+    text-align: left;
+    margin-bottom: 1.25rem;
+}
+.text-main {
+    font-family: ﻿ArialMT, ﻿AdobeInvisFont, ﻿Courier,sans-serif;
+    font-size: 0.8125rem;
+    color: rgba(78, 80, 80, 255);
+    text-align: left;
+    margin-bottom: 1.563rem;
+}
+.bottom {
+    width: 17.4375rem;
+    height: 1.875rem;
+    font-family: ﻿KaushanScript-Regular, ﻿ArialMT, ﻿AdobeInvisFont, ﻿Courier,sans-serif;
+    font-size: 0.75rem;
+    color: rgba(0, 0, 0, 255);
+    text-align: center;
+    line-height: 1.875rem;
+    border: 0.0625rem solid #000;
+    border-radius: 0.5rem;
+    background-color: #fbf6f9;
+    margin: auto;
+
+}
+.img {
+    margin-bottom: 1.563rem;
+}
+.border {
+    margin-top: 2.188rem;
+    border: 1px solid #dedbdb;
+}
