@@ -195,11 +195,81 @@
     .picture {
 flex-basis: 50%;
     }
-    .gallery {
+.gallery {
         display: flex;
         flex-wrap: wrap;
     }
-    .sidebare {
+.sidebare {
+    display: flex;
+}
+    .title-picture {
+        font-size: 10.19905pt;
+    }
+    .text {
+        font-size: 8.99921pt;
+    }
+    .price {
+        font-size: 13.24897pt;
+
+        margin-bottom: 12px;
+    }
+    .browse-tours {
+        flex-basis: 45%;
+    }
+    #selcolor {
+        width: 100%;
+    }
+    .text-browse {
+        margin-left: 0;
+    }
+    .gallery-title {
+        font-size: 17.48453pt;
+    }
+    .botom--brows {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .search-tours {
+        margin-left: 15px;
+    }
+    .main::after {
+        width: 28px;
+        height: 28px;
+        border-radius: 24px;
+        right: 1%;
+        bottom: 1%;
+    }
+    .picture:nth-last-child(-n+2){
         display: flex;
+    }
+}
+@media(min-width: 1024px) {
+
+    .sidebare {
+        flex-direction: column;
+    }
+    .gallery-title {
+        flex-basis: 100%;
+    }
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .gallery {
+        flex-basis: 66%;
+    }
+    .sidebare {
+        flex-basis: 22.1%;
+        margin-left: 105px;
+    }
+    .title-picture {
+        font-size: 8.09905pt;
+        margin-right: 10px;
+    }
+    .text {
+        font-size: 7.89921pt;
+    }
+    .search-menu  {
+        flex-direction: column;
     }
 }
