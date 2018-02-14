@@ -44,8 +44,10 @@
 
 }
 .ref:hover {
-    text-shadow: 6px 4px 2px #000000,
-    -6px -6px #a1989b;
+    text-shadow: 8px 8px 2px #000000,
+    -8px -8px #a1989b;
+    font-size: xx-large;
+
 }
 .list {
     display: flex;
