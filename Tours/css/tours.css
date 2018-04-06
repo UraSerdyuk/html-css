@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.main {
+    background-color: #fff;
+    padding: 60px 35px;
+    position: relative;
+}
+.gallery-img {
+    width: 100%;
+
+    flex-basis: 50%;
+}
+
+
+.gallery-title {
+    font-family: ﻿PathwayGothicOne-Book, ﻿AdobeInvisFont, ﻿Courier,sans-serif;
+    font-size: 24.48453pt;
+    color: rgba(38, 53, 85, 255);
+    text-align: left;
+    margin-bottom: 40px;
+}
+.picture {
+    display: flex;
+    margin-bottom: 40px;
+}
+.picture:nth-last-child(-n+2){
+    display: none;
+}
+.picture-title {
+    margin-left: 20px;
+}
+.title-picture{
+    font-family: ﻿ArialMT, ﻿AdobeInvisFont, ﻿Courier,sans-serif;
+    font-size: 11.89905pt;
+    color: rgba(38, 53, 85, 255);
+    text-align: left;
+    margin-bottom: 13px;
+}
+.text {
+    font-family: ﻿ArialMT, ﻿AdobeInvisFont, ﻿Courier,sans-serif;
+    font-size: 11.29921pt;
+    color: rgba(78, 80, 80, 255);
+    text-align: left;
+    margin-bottom: 10px;
+}
+.price {
+    font-family: ﻿KaushanScript-Regular, ﻿ArialMT, ﻿AdobeInvisFont, ﻿Courier,sans-serif;
+    font-size: 16.24897pt;
+    color: rgba(56, 175, 229, 255);
+    text-align: left;
+    margin-bottom: 20px;
+}
+.botom {
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+    border: 1px solid #c1baba;
+    background-color: #fbf6f9;
+    font-family: ﻿KaushanScript-Regular, ﻿ArialMT, ﻿AdobeInvisFont, ﻿Courier,sans-serif;
+    font-size: 11.45761pt;
+    color: rgba(0, 0, 0, 255);
+    text-align: center;
+    font-weight : normal;
+}
+.picture-img {
+    flex-basis: 50%;
+
+}
+.text-browse {
+    align-self: flex-start;
+    margin-left: 70px;
+    font-family: ﻿KaushanScript-Regular, ﻿ArialMT, ﻿AdobeInvisFont, ﻿Courier,sans-serif;
+    font-size: 9.39921pt;
+    color: rgba(78, 80, 80, 255);
+    text-align: left;
+    margin-bottom: 15px;
+}
+.text-box {
+    width: 270px;
+    background-color: #e3e2e2;
+    font-family: ﻿KaushanScript-Regular, ﻿ArialMT, ﻿AdobeInvisFont, ﻿Courier,sans-serif;
+    font-size: 9.49921pt;
+    color: rgba(255, 255, 255, 255);
+    text-align: left;
+    padding-top: 4px;
+}
+.placeholder {
+    color: rgba(255, 255, 255, 255);
+}
+
+#selcolor {
+    width: 270px;
+    height: 23px;
+    margin-bottom: 3px;
+    background-color: #fcfafa;
+    font-family: ﻿KaushanScript-Regular, ﻿ArialMT, ﻿AdobeInvisFont, ﻿Courier,sans-serif;
+    font-size: 9.49921pt;
+    color: rgba(134, 143, 143, 255);
+    text-align: left;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-bottom: 65px;
+}
+.botom--brows {
+    align-self: flex-start;
+    width: 64px;
+    height: 22px;
+    margin-left: 70px;
+    margin-top: 15px;
+
+    font-family: ﻿KaushanScript-Regular, ﻿ArialMT, ﻿AdobeInvisFont, ﻿Courier,sans-serif;
+    font-size: 9.5pt;
+    color: rgba(0, 0, 0, 255);
+    text-align: center;
+    line-height: 22px;
+}
+.text-search {
+    font-family: ﻿KaushanScript-Regular, ﻿ArialMT, ﻿AdobeInvisFont, ﻿Courier,sans-serif;
+    font-size: 12.49921pt;
+    color: rgba(56, 175, 229, 255);
+    text-align: left;
+    margin-bottom: 10px;
+}
+.text-browse-search {
+    font-family: ﻿KaushanScript-Regular, ﻿ArialMT, ﻿AdobeInvisFont, ﻿Courier,sans-serif;
+    font-size: 8pt;
+    color: rgba(78, 80, 80, 255);
+    text-align: left;
+    margin-bottom: 12px;
+}
+.search-menu {
+    display: flex;
+    flex-wrap: wrap;
+      justify-content: space-between;
+}
+.selector-search {
+    width: 100%;
+    background-color: #fcfafa;
+    font-family: ﻿KaushanScript-Regular, ﻿ArialMT, ﻿AdobeInvisFont, ﻿Courier,sans-serif;
+    font-size: 9.49921pt;
+    color: rgba(134, 143, 143, 255);
+    text-align: left;
+}
+.title-search {
+    margin-bottom: 25px;
+    flex-basis: 49%;
+}
+.botom--search {
+    align-self: flex-start;
+    width: 64px;
+    height: 22px;
+
+    font-family: ﻿KaushanScript-Regular, ﻿ArialMT, ﻿AdobeInvisFont, ﻿Courier,sans-serif;
+    font-size: 9.5pt;
+    color: rgba(0, 0, 0, 255);
+    text-align: center;
+    line-height: 22px;
+}
+.optin {
+    background-color: #e3e2e2;
+    font-family: ﻿KaushanScript-Regular, ﻿ArialMT, ﻿AdobeInvisFont, ﻿Courier,sans-serif;
+    font-size: 12.49921pt;
+    color: rgba(134, 143, 143, 255);
+    text-align: left;
+}
+.optin_text {
+    font-family: ﻿KaushanScript-Regular, ﻿ArialMT, ﻿AdobeInvisFont, ﻿Courier,sans-serif;
+    font-size: 12.49921pt;
+    color: rgba(134, 143, 143, 255);
+    text-align: left;
+}
+.main::after {
+    content: '\f106';
+    font-family: FontAwesome, sans-serif;
+    text-align: center;
+    line-height: 22px;
+    color: #ffffff;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-color: #38afe5;
+    border-radius: 12px;
+    right: 1.2%;
+    bottom: 0.5%;
+}
+@media (min-width: 768px) {
+    .picture {
+flex-basis: 50%;
+    }
+.gallery {
+        display: flex;
+        flex-wrap: wrap;
+    }
+.sidebare {
+    display: flex;
+}
+    .title-picture {
+        font-size: 10.19905pt;
+    }
+    .text {
+        font-size: 8.99921pt;
+    }
+    .price {
+        font-size: 13.24897pt;
+
+        margin-bottom: 12px;
+    }
+    .browse-tours {
+        flex-basis: 45%;
+    }
+    #selcolor {
+        width: 100%;
+    }
+    .text-browse {
+        margin-left: 0;
+    }
+    .gallery-title {
+        font-size: 17.48453pt;
+    }
+    .botom--brows {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .search-tours {
+        margin-left: 15px;
+    }
+    .main::after {
+        width: 28px;
+        height: 28px;
+        border-radius: 24px;
+        right: 1%;
+        bottom: 1%;
+    }
+    .picture:nth-last-child(-n+2){
+        display: flex;
+    }
+}
+@media(min-width: 1024px) {
+
+    .sidebare {
+        flex-direction: column;
+    }
+    .gallery-title {
+        flex-basis: 100%;
+    }
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .gallery {
+        flex-basis: 66%;
+    }
+    .sidebare {
+        flex-basis: 22.1%;
+        margin-left: 105px;
+    }
+    .title-picture {
+        font-size: 8.09905pt;
+        margin-right: 10px;
+    }
+    .text {
+        font-size: 7.89921pt;
+    }
+    .search-menu  {
+        flex-direction: column;
+    }
+}

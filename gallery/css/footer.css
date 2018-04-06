@@ -1,0 +1,132 @@
+/*-----------------------------------------------------footer*/
+.footer-top {
+    background-color: #28425A;
+    padding: 1.8rem;
+}
+.footer-menu {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1.625rem;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+}
+.footer-menu-link {
+    display: block;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.875rem;
+
+}
+.contact-text {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.875rem;
+
+}
+
+.contact-info {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.875em;
+}
+.footer-menu-item {
+    flex-basis: 26%;
+    margin-bottom: 0.8125rem;
+}
+.footer-menu-item:last-child(-n+3){
+    margin-bottom: 0;
+}
+.contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+
+}
+.fa-envelope-o, .fa-mobile  {
+    vertical-align: middle;
+    margin-right: 0.3125rem;
+}
+.footer-bottom {
+    padding: 1.875rem;
+    text-align: center;
+}
+.footer-social {
+    display: flex;
+    justify-content: space-between;
+    margin: 0  auto  0.8125rem;
+    width: 27%;
+
+
+}
+.footer-social-link {
+    width: 1.625rem;
+    height: 1.625rem;
+    background-color: #fff;
+    border-radius: 50%;
+    display: block;
+    text-align: center;
+    line-height: 1.625rem;
+    color: #DFAB56;
+}
+.copyright {
+    font-size:  0.5625rem;
+    color: #ffffff;
+    font-family: Arial,sans-serif;
+}
+.copiright-link {
+
+    color: #ffffff;
+
+
+}
+/*style footer end*/
+@media (min-width: 768px) {
+    .footer-top {
+        display: flex;
+
+    }
+    .footer-menu {
+        justify-content: space-evenly;
+        margin-bottom: 0;
+        flex-grow: 0.7;
+    }
+    .contact {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .contact-text {
+margin-bottom: 0.75rem;
+    }
+    .fa-envelope-o, .fa-mobile {
+        display: none;
+    }
+    .contact-info {
+        margin-bottom: 0.8rem;
+    }
+
+.futer-social-link {
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+}
+    .futer-social {
+        margin-bottom: 1.563rem;
+    }
+.copyright {
+    font-size: 0.75rem;
+}
+
+
+}
+@media (min-width: 1024px) {
+    .footer-menu{
+        flex-grow: 0.7;
+    }
+    .footer-menu-item {
+        text-align: center;
+    }
+    .footer-social {
+        width: 20%;
+    }
+}

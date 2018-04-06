@@ -1,0 +1,454 @@
+.font{
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-family: 'Kaushan Script', cursive;
+}
+
+
+
+.gallery {
+    position: relative;
+    background-color: #fff;
+    padding: 2.5rem 2.5rem 3.125rem 2.5rem ;
+}
+.gallery::after {
+    content: '\f077';
+    font-family: FontAwesome,sans-serif;
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.4rem;
+    font-size: 0.8rem;
+    display: block;
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 1rem;
+    background-color: #38afe5;
+    right: 1.5%;
+    bottom: 1%;
+}
+.gallery-boat {
+    position: relative;
+    margin-bottom: 5rem;
+}
+.gallery-item--bar {
+    position: relative;
+}
+.gallery-item--bar:hover .bar {display: block}
+
+.bar {
+    display: none;
+    position: absolute ;
+    padding: 0.625rem;
+    background-color: #193149;
+    width: 50%;
+    height: 100%;
+}
+.titl-bar {
+    font-family: ﻿OpenSans-CondensedLight, ﻿KaushanScript-Regular, ﻿AdobeInvisFont, ﻿Courier,sans-serif;
+    font-size: 14.83801pt;
+    color: rgba(255, 255, 255, 255);
+    text-align: left;
+}
+.list-bar {
+    font-family: 'Kaushan Script', sans-serif;
+    font-size: 9.79309pt;
+    color: rgba(203, 198, 198, 255);
+    text-align: left;
+    line-height: 1rem;
+    margin-top: 0.2rem;
+}
+.button {
+    margin-left: 75%;
+    border-radius: 0.1875rem;
+    text-align: center;
+    font-size: 0.75rem;
+    color: rgba(0, 0, 0, 255);
+    font-family: 'Kaushan Script', sans-serif;
+    margin-top: 0.2rem;
+}
+.title-white {
+    display: block;
+    position: absolute;
+    width: 6.313rem;
+    height: 1.75rem;
+    background-color: #fff;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 0.6rem;
+    color: rgba(38, 53, 85, 255);
+    text-align: center;
+    bottom: 3%;
+    left: 38%;
+    line-height: 1.9rem;
+    text-transform: uppercase;
+}
+.title-bloo {
+    display: block;
+    position: absolute;
+    width: 7.813rem;
+    height: 1.688rem;
+    bottom: -8%;
+    left: 38%;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
+    background-color: #38afe5;
+    text-transform: uppercase;
+    line-height: 1.7rem;
+}
+.title-top {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 22.93255pt;
+    color: rgba(38, 53, 85, 255);
+    text-align: left;
+    margin-bottom: 1.563rem;
+}
+.gallery-item {
+    position: relative;
+    margin-bottom: 2.5rem;
+}
+.gallery-item-state {
+    position: relative;
+}
+.gallery-item-state:hover .bar-state{display: block}
+.bar-state {
+    display: none;
+    position: absolute ;
+    padding: 0.625rem;
+    background-color: #193149;
+    width: 50%;
+    height: 100%;
+}
+.gallery-item--botom:hover .bar-paris{display: block}
+.bar-paris {
+    position: absolute;
+    display: none;
+    padding: 0.625rem;
+    background-color: #193149;
+    width: 50%;
+    height: 100%;
+}
+/*---MENU----------------------------------------------------------------*/
+
+.gallery-block {
+    border: 1px solid #e0dddd;
+    padding: 1.875rem 1.563rem;
+    margin-bottom: 2.813rem;
+}
+
+.gallery-menu-title {
+    font-family:  ﻿ArialMT, ﻿AdobeInvisFont, ﻿Courier,sans-serif;
+    font-size: 0.8625rem;
+    color: rgba(38, 53, 85, 255);
+    text-align: left;
+}
+.gallery-menu-list {
+    font-family:  ﻿ArialMT, ﻿AdobeInvisFont, ﻿Courier,sans-serif;
+    font-size: 0.4375rem;
+    color: rgba(78, 80, 80, 255);
+    text-align: left;
+    width: 69%;
+}
+
+.gallery-item-menu-inlyne {
+    display: inline-block;
+}
+.gallery-menu-title {
+    margin-top: 0.9375rem;
+    margin-bottom: 0.9375rem;
+}
+.gallery-menu-list {
+    display: inline-block;
+    margin-bottom: 2.188rem;
+    width: 100%;
+}
+.gallery-click {
+    color: #fa7e7e;
+    text-decoration: none;
+}
+.gallery-span {
+    color: #000000;
+    text-transform: uppercase;
+    line-height: 0.8rem;
+   }
+.button-menu {
+    align-self :flex-end;
+    margin-left: 13%;
+    border-radius: 0.2rem;
+    background-color: #faf6fa;
+    border: 0.0625rem solid #c3bebe;
+    padding: 0.0625rem 0.4375rem;
+    height: 22px;
+    margin-bottom: 35px;
+}
+.gal-main {
+    display: flex;
+    margin-left: 0;
+}
+
+/*-------LIST--------------------------------------------------------------------*/
+.gallery-list {
+    border: 1px solid #c3bebe;
+    border-radius: 0.1rem;
+}
+.title-list {
+    border-bottom: 1px solid #c3bebe;
+    background-color: #fcfafa;
+
+
+
+}
+.list-span {
+    margin-left: 3.438rem;
+    font-family: ﻿OpenSans-CondensedLight, ﻿KaushanScript-Regular, ﻿AdobeInvisFont, ﻿Courier,sans-serif;
+    font-size: 1.25rem;
+    color: rgba(38, 53, 85, 255);
+    text-align: left;
+}
+.title-list-sing {
+    font-family: ﻿KaushanScript-Regular, ﻿ArialMT, ﻿AdobeInvisFont, ﻿Courier,sans-serif;
+    font-size: 0.9375rem;
+    color: rgba(38, 53, 85, 255);
+    text-align: left;
+    margin-top:1.875rem ;
+    margin-bottom: 1.25rem;
+    margin-left: 3.438rem;
+}
+.gallery-email {
+    margin-left: 3.438rem;
+    width: 287px;
+    height: 27px;
+    border-radius: 0.2rem;
+    border: 1px solid #e0dddd;
+    margin-bottom: 1.875rem;
+}
+.gallery-ul {
+    column-count: 2;
+    margin-left: 4.038rem;
+    margin-bottom: 2.188rem;
+}
+.gallery-li {
+    list-style-image: url("../img/link.jpg");
+
+    font-family: ﻿KaushanScript-Regular, ﻿ArialMT, ﻿AdobeInvisFont, ﻿Courier,sans-serif;
+    font-size: 0.875rem;
+    color: rgba(38, 53, 85, 255);
+    text-align: left;
+    margin-left: 0.625rem;
+    line-height: 1.65rem;
+}
+.gallery-block {
+    border: 1px solid #dedbdb;
+    padding: 30px 25px;
+    margin-bottom: 45px;
+}
+.gallery-item--botom {
+    position: relative;
+}
+
+/*-----------------  768  ---------------------------------------------------------*/
+
+
+@media (min-width: 768px) {
+    .gallery-top {
+        min-width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .gallery-item--botom {
+        display: none;
+    }
+
+    .gallery-img-gal {
+        min-width: 100%;
+    }
+
+    .gallery-item {
+        flex-basis: 48%;
+    }
+
+    .gallery-item-menu {
+        display: flex;
+        margin-bottom: 60px;
+    }
+
+    .gallery-img {
+        flex-basis: 30%;
+    }
+
+    .picture-menu {
+        flex-basis: 77%;
+    }
+
+    .gallery-img {
+        min-width: 100%;
+    }
+
+    .gal {
+        margin-left: 20px;
+    }
+    .gallery-menu-title {
+        margin-top: 0;
+    }
+    .title-white {
+        width: 170px;
+        height: 45px;
+        line-height: 2.7rem;
+        font-size: 1.1rem;
+        bottom: 52%;
+        left: 0;
+    }
+    .title-bloo {
+        width: 205px;
+        height: 40px;
+        line-height: 2.4rem;
+        font-size: 1.6rem;
+        bottom: 43%;
+        left: 0;
+    }
+    .gallery-boat::before {
+        content: "\f060   \f061";
+        text-align: center;
+        line-height: 60px;
+        font-size: 20px;
+        color: #fff;
+        font-family: FontAwesome,sans-serif;
+        display: block;
+        position: absolute;
+        background-color: #38afe5;
+        border-radius: 30px;
+        width: 65px;
+        height: 65px;
+        bottom: 25px;
+        left: 25px;
+    }
+    .title-list {
+        border: 1px solid #dfdcdc;
+    }
+    .gallery-list {
+        display: flex;
+    }
+    .gallery-ul {
+        margin-left: 25px;
+        margin-top: 40px;
+        flex-basis: 60%;
+    }
+    .gallery-email {
+        width: 226px;
+    }
+    .bot-list {
+        flex-basis: 50%;
+
+
+    }
+    .gallery-menu-title {
+        font-size: 1.2625rem;
+    }
+    .gallery-menu-list {
+        font-size: 0.7375rem;
+    }
+    .gallery-item--bar:hover .bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .titl-bar {
+        font-size: 18.79309pt;
+        text-align: center;
+    }
+    .list-bar {
+        font-size: 16.79309pt;
+    }
+    .button {
+        width: 75px;
+        margin-left: 62px;
+    }
+    .gallery-item-state:hover .bar-state {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+}
+@media (min-width:  1024px) {
+    .gallery-item--botom {
+        display: block;
+    }
+    .title-white {
+        width: 225px;
+        height: 61px;
+        line-height: 3.7rem;
+        font-size: x-large;
+    }
+    .title-bloo {
+        bottom: 42%;
+        width: 275px;
+        height: 60px;
+        line-height: 3.5rem;
+        font-size: 2.1rem;
+    }
+    .gallery-boat::before {
+        width: 90px;
+        height: 90px;
+        border-radius: 50px;
+        line-height: 85px;
+        font-size: 29px;
+    }
+    .title-top {
+        margin-bottom: 50px;
+    }
+    .gallery-item-boat {
+        margin-bottom: -30px;
+    }
+    .gallery-top {
+        margin-bottom: 50px;
+    }
+    .gallery-item--botom:hover .bar-paris {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .gallery-item {
+        flex-basis: 32%;
+    }
+
+    .big {
+        display: flex;
+    }
+    .gallery-list {
+        margin-left: 20px;
+        flex-direction: column;
+        flex-basis: 62%;
+    }
+    .gallery-block {
+        margin-bottom: 0;
+    }
+    .button-menu {
+        margin-left: 1%;
+    }
+    .bot-list {
+margin-top: 0;
+    }
+    .list-span {
+        margin-left: 5.938rem;
+    }
+    .title-list-sing {
+        margin-left: 1.738rem;
+    }
+    .gallery-email {
+        width: 253px;
+        margin-left: 1.438rem;
+        height: 33px;
+    }
+    .gallery-ul {
+        column-count: 1;
+        margin-top: 0;
+        margin-left: 35px;
+    }
+    .gallery-li {
+        font-size: 1.275rem;
+        line-height: 2.65rem;
+    }
+ }
